@@ -62,6 +62,13 @@ const Hero = () => {
                 {/* hero images */}
                 <img src={Heroimage} alt="" className='hero-image' />
                 <img src={Heroimageback} alt="" className='hero-image-back' />
+                {/* calories */}
+                <div className="calories">
+                    <img src={calories} alt="calories-imgs" className='calories-imgs' />
+                    <div><span>Calories burned</span>
+                        <span>220 kcal</span>
+                    </div>
+                </div>
             </div>
         </div>
     );

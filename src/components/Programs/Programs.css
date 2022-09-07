@@ -1,0 +1,32 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.program-header{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+/* categories */
+
+.program-categories{
+    display: flex;
+    gap: 1rem;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    color: white;
+    background-color: gray;
+    justify-content: space-between;
+}

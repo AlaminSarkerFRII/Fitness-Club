@@ -19,7 +19,8 @@ const Programs = () => {
             <span>{program.heading}</span>
             <span>{program.details}</span>
             <div className="join-now">
-                <span><img src={rightArrow} alt="rightArrow" />Join Now</span>
+                <span><img src={rightArrow} alt="rightArrow" /></span>
+                <span>Join Now</span>
             </div>
           </div>
         ))}
